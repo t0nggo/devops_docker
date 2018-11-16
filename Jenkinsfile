@@ -24,8 +24,9 @@ pipeline {
        stage('Deploy') { 
           agent {label 'mgr1'}
           steps {
-           sh "echo h4"
-           sh "Test Up load"
+           sh "echo h4 testes"
+           sh "echo Test Up load"
+           sh "echo Test Up loads"
           }
        }
     }
