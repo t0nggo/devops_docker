@@ -20,11 +20,12 @@ pipeline {
             }
           }
        }
-
+ 
        stage('Deploy') { 
           agent {label 'mgr1'}
           steps {
            sh "echo h"
+           sh "Test Up load"
           }
        }
     }
